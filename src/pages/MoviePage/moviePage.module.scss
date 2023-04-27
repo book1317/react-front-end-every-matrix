@@ -1,0 +1,36 @@
+.moviePage {
+	padding: 20px 10px;
+
+	.authContainer {
+		margin: 10px;
+		margin-top: 0px;
+		display: flex;
+		justify-content: space-between;
+
+		.loginButton {
+			cursor: pointer;
+			margin: 0px 10px;
+			padding: 5px 10px;
+			background-color: #dddd;
+			border-radius: 6px;
+		}
+	}
+
+	.movieCatalog {
+		display: flex;
+		justify-content: center;
+		margin: 10px 0px;
+	}
+
+	.moviesContianer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.loadMoreButton {
+		display: flex;
+		justify-content: center;
+		opacity: 0;
+	}
+}

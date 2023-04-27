@@ -1,0 +1,37 @@
+.movieItem {
+    position: relative;
+    width: 200px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+    .movieImage {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    .favoriteButton {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 3px;
+        border-radius: 50%;
+        background-color: white;
+        opacity: 0.5;
+    }
+
+    .textContainer {
+        padding: 10px;
+        padding-top: 5px;
+
+        .title {
+            font-weight: bold;
+        }
+
+        .releaseDate {
+            margin-top: 5px;
+        }
+    }
+}

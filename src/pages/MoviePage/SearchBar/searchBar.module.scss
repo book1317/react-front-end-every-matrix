@@ -1,0 +1,19 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .searchLabel {
+    display: flex;
+    white-space: nowrap;
+  }
+
+  .input {
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 50%;
+    border-radius: 6px;
+    border: 1px solid grey;
+    padding: 5px;
+  }
+}
