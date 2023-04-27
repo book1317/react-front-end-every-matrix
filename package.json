@@ -1,11 +1,13 @@
 {
   "name": "web",
+  "homepage": "https://book1317.github.io/react-front-end-every-matrix/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.3.6",
